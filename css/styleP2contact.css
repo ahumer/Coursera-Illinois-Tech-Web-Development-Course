@@ -36,7 +36,8 @@ input[type=text], textarea {
 }
 
 textarea {
-  overflow: auto
+  overflow: auto;
+  vertical-align: baseline; /*There was no margin between textarea and input-submit because of the "normalize.css" file settings of top at this value for "textarea"*/
 }
 
 label {
