@@ -1,0 +1,54 @@
+
+main article img {
+  border-radius: 100px;
+  float:left;
+  margin:0 1em 1em 0;
+}
+
+.vertical-align {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 210px;
+}
+
+#video iframe {
+  float:left;
+  margin:0  1em 1em 0;;
+}
+
+#contact-aside {
+  font-style: italic;
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  padding:20px 20px 20px 20px;
+  width: 380px;
+  float: left;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  #contact-aside {
+  font-style: italic;
+  background-color: #f2f2f2;
+  margin: 1em 0;
+  padding:20px 20px 20px 20px;
+  width: 100%;
+  }
+  
+  #video iframe {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #video > * {
+    text-align: center;
+  }
+  
+  #content img + p {
+  padding-top: 0;
+}
+  
+}

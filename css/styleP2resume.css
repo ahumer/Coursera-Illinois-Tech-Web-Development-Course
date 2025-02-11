@@ -1,0 +1,17 @@
+#summary,
+#projects,
+#education,
+#skills {
+  border-bottom: 1px solid black;
+}
+
+#projects ul,
+#skills ul {
+list-style-type: none;
+padding:0;
+}
+
+.container {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+#header {
+  background: hsla(210, 100%, 56%, 1);
+  background: linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E90FF", endColorstr="#FFFFFF", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+  text-align: center;
+}
+
+#content > * {
+  padding:0 20px;
+  overflow:hidden;
+}
+
+main article img {
+  border-radius: 100px;
+  float:left;
+  margin:0 1em 1em 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);  
+}
+
+.vertical-align {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 210px;
+}
+
+#video iframe {
+  float:left;
+  margin:0  1em 1em 0;;
+}
+
+#contact-aside {
+  font-style: italic;
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  padding:20px 20px 20px 20px;
+  width: 380px;
+  float: left;
+}
+
+#summary,
+#projects,
+#education,
+#skills {
+  border-bottom: 1px solid gray;
+}
+
+#projects ul,
+#skills ul {
+list-style-type: none;
+padding:0;
+}  
+  
+h1,
+header h2 {
+  color: blue;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+nav {
+  background: hsla(233, 35%, 53%, 1);
+
+  background: linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C66B1", endColorstr="#000080", GradientType=1 );
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav ul li {
+  float:left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color:aliceblue;
+  color:navy;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.photo-grid {
+  width: 800px;
+  display: flex;
+  justify-content: center;   /*Controls the alignment of all items in the main axis*/
+  flex-wrap: wrap;
+  flex-direction: row;    /* When flex direction is column, main axis is vertical, when it is row, main axis is horizontal*/
+  align-items: center;
+  gap: 10px;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 200px;
+  height: 200px;
+}
+
+.photo-grid-item img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  font-weight: lighter;
+  font-size: 0.9em;
+  font-family:'Source Sans 3', Arial, sans-serif;
+}
+
+footer ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+footer ul li {
+  padding: 0.5em 0;
+}
+
+.resource {
+  float:left;
+}
+
+.contact {
+  float:right;
+}
+
+.container {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .contact a {
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position:5px center;
+  padding-left: 2em; 
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 1px; 
+}
+
+footer .contact li:first-child a {
+  background-image:url("../images/dev-icon.png");
+}
+
+footer .contact li:nth-child(2) a {
+  background-image:url("../images/mail-icon.png");
+}
+
+footer .contact li:nth-child(3) a {
+  background-image:url("../images/github-icon.png");
+}
+
+footer .contact li:nth-child(4) a {
+  background-image:url("../images/linkedln-icon.png");
+}
+
+
+
+footer section:first-child {
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+footer section p:first-of-type {
+  
+}
+
+section:last-child:not(div section, main section) {
+  text-align:center;
+  background-color: black;
+  color:white;
+}
+
+section:last-child:not(div section, main section) a {
+  color: white;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+textarea {
+  vertical-align: baseline; /*Cause no margin between textarea and input-submit because of normalize css settings of top at this value for textarea*/
+  overflow: auto
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display:inline-block;
+}
+
+input[type=submit] {
+  background-color: #4682B4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  float:right;  
+}
+
+input[type=submit]:hover {
+  background-color: #6c9dc6;
+}
+
+#form {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/*Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  #contact-aside {
+  font-style: italic;
+  background-color: #f2f2f2;
+  margin: 1em 0;
+  padding:20px 20px 20px 20px;
+  width: 100%;
+  }
+  
+  #video iframe {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #video > * {
+    text-align: center;
+  }
+  
+  #content img + p {
+  padding-top: 0;
+}
+  
+}
+
+@media screen and (min-width: 800px) {
+    #content > *, .container > * {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+#header {
+  background: hsla(210, 100%, 56%, 1);
+  background: linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E90FF", endColorstr="#FFFFFF", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+  text-align: center;
+}
+
+#content > * {
+  padding:0 20px;
+  overflow:hidden;
+}
+
+  
+  
+h1,
+header h2 {
+  color: blue;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+nav {
+  background: hsla(233, 35%, 53%, 1);
+
+  background: linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C66B1", endColorstr="#000080", GradientType=1 );
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav ul li {
+  float:left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  font-weight: lighter;
+  font-size: 0.9em;
+  font-family:'Source Sans 3', Arial, sans-serif;
+}
+
+footer ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+footer ul li {
+  padding: 0.5em 0;
+}
+
+.active {
+  background: aliceblue;
+  color:navy;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .contact a {
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position:5px center;
+  padding-left: 2em; 
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 1px; 
+}
+
+footer .contact li:first-child a {
+  background-image:url("../images/dev-icon.png");
+}
+
+footer .contact li:nth-child(2) a {
+  background-image:url("../images/mail-icon.png");
+}
+
+footer .contact li:nth-child(3) a {
+  background-image:url("../images/github-icon.png");
+}
+
+footer .contact li:nth-child(4) a {
+  background-image:url("../images/linkedln-icon.png");
+}
+
+footer section:first-child {
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+footer section p:first-of-type {
+  
+}
+
+section:last-child:not(div section, main section) {
+  text-align:center;
+  background-color: black;
+  color:white;
+}
+
+section:last-child:not(div section, main section) a {
+  color: white;
+}
+
+.resource {
+  float:left;
+}
+
+.contact {
+  float:right;
+}
+
+.container {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    #content > *, .container > * {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}

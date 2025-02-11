@@ -1,0 +1,100 @@
+
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.photo-grid {
+  width: 800px;
+  display: flex;
+  justify-content: center;   /*Controls the alignment of all items in the main axis*/
+  flex-wrap: wrap;
+  flex-direction: row;    /* When flex direction is column, main axis is vertical, when it is row, main axis is horizontal*/
+  align-items: center;
+  gap: 10px;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 100px;
+  height: 100px;
+}
+
+.photo-grid-item img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+textarea {
+  overflow: auto
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display:inline-block;
+}
+
+input[type=submit] {
+  background-color: #4682B4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  float:right;  
+}
+
+input[type=submit]:hover {
+  background-color: #6c9dc6;
+}
+
+#form {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/*Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+}
+
+@media screen and (min-width: 800px) {
+    #content > *, .container > * {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
