@@ -11,15 +11,10 @@ body {
 }
 
 #header {
-background: hsla(210, 100%, 56%, 1);
-
-background: linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-
-
+  background: hsla(210, 100%, 56%, 1);
+  background: linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
   text-align: center;
 }
 
@@ -38,14 +33,9 @@ header h2 {
 
 nav {
   background: hsla(233, 35%, 53%, 1);
-
   background: linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
-
   background: -moz-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
-
   background: -webkit-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C66B1", endColorstr="#000080", GradientType=1 );
   text-align: center;
 }
 
