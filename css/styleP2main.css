@@ -152,6 +152,10 @@ footer .contact li:nth-child(5) a {
   padding-bottom: 20px;
 }
 
+.resource p {
+  font-style: italic;
+}
+
 
 
 @media screen and (min-width: 620px) {
