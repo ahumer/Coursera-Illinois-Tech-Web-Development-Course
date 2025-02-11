@@ -25,10 +25,7 @@ main article img {
 
 @media screen and (max-width: 800px) {
   #contact-aside {
-  font-style: italic;
-  background-color: #f2f2f2;
   margin: 1em 0;
-  padding:20px 20px 20px 20px;
   width: 100%;
   }
   
