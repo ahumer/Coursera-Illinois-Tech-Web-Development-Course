@@ -171,3 +171,13 @@ footer section p:first-of-type {
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 500px) {
+  .resource {
+  float:none;
+}
+
+.contact {
+  float:none;
+}
+}

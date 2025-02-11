@@ -6,10 +6,7 @@ main article img {
 }
 
 .vertical-align {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  height: 210px;
+  margin-top:60px;
 }
 
 #video iframe {
@@ -25,8 +22,6 @@ main article img {
   width: 380px;
   float: left;
 }
-
-
 
 @media screen and (max-width: 800px) {
   #contact-aside {
