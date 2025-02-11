@@ -16,8 +16,8 @@
 
 .photo-grid-item {
   border: 1px solid #fff;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .photo-grid-item img {
