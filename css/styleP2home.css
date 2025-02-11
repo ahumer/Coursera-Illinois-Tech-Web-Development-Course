@@ -42,8 +42,4 @@ main article img {
     text-align: center;
   }
   
-  #content img + p {
-  padding-top: 0;
-}
-  
 }

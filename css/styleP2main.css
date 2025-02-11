@@ -11,12 +11,15 @@ body {
 }
 
 #header {
-  background: hsla(210, 100%, 56%, 1);
-  background: linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E90FF", endColorstr="#FFFFFF", GradientType=1 );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+background: hsla(210, 100%, 56%, 1);
+
+background: linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+
   text-align: center;
 }
 
