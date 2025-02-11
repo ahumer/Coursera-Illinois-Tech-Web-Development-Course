@@ -119,6 +119,10 @@ footer .contact li:nth-child(4) a {
   background-image:url("../images/linkedln-icon.png");
 }
 
+footer .contact li:nth-child(5) a {
+  background-image:url("../images/w3c-icon.png");
+}
+
 footer section:first-child {
 
 }
