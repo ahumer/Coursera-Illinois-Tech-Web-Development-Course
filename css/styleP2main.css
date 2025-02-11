@@ -165,7 +165,7 @@ footer section p:first-of-type {
 
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 620px) {
     #content > *, .container > * {
         max-width: 800px;
         margin: 0 auto;
