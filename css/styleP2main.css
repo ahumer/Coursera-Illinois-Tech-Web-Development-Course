@@ -82,7 +82,13 @@ footer ul li {
 }
 
 .active {
-  background: aliceblue;
+  background: hsla(208, 100%, 97%, 1);
+
+  background: linear-gradient(90deg, hsla(208, 100%, 97%, 1) 0%, hsla(233, 35%, 53%, 1) 100%, hsla(240, 100%, 25%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(208, 100%, 97%, 1) 0%, hsla(233, 35%, 53%, 1) 100%, hsla(240, 100%, 25%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(208, 100%, 97%, 1) 0%, hsla(233, 35%, 53%, 1) 100%, hsla(240, 100%, 25%, 1) 100%);
   color:navy;
 }
 
