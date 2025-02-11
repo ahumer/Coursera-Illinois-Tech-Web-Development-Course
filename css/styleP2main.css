@@ -127,21 +127,20 @@ footer .contact li:nth-child(4) a {
 }
 
 footer section:first-child {
-  border: 1px solid #333;
-  overflow: hidden;
+
 }
 
 footer section p:first-of-type {
   
 }
 
-section:last-child:not(div section, main section) {
+.bottom {
   text-align:center;
   background-color: black;
   color:white;
 }
 
-section:last-child:not(div section, main section) a {
+.bottom a {
   color: white;
 }
 
@@ -154,6 +153,12 @@ section:last-child:not(div section, main section) a {
 }
 
 .container {
+  border: 1px solid #333;
+  overflow: hidden;
+
+}
+
+.inner-container {
   padding-left: 20px;
   padding-bottom: 20px;
 }
