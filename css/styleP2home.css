@@ -38,6 +38,28 @@ main article img {
   
   #video > * {
     text-align: center;
+  } 
+}
+
+@media screen and (min-height: 1000px) {
+    #contact-aside {
+  margin: 1em 0;
+  width: 100%;
   }
   
+  #video iframe {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #video > * {
+    text-align: center;
+  }
+
+    iframe {
+      height:500px;
+      width:600px;
+    }
+}
 }
