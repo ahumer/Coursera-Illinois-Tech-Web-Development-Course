@@ -19,7 +19,7 @@ body {
 }
 
 #content > * {
-  padding:0 20px;
+  padding:0 1.25rem;
   overflow:hidden;
 }
 
@@ -150,7 +150,6 @@ footer .contact li:nth-child(5) a {
 .container {
   border: 1px solid #333;
   overflow: hidden;
-
 }
 
 .inner-container {
