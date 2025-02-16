@@ -2,31 +2,31 @@
 main article img {
   border-radius: 100px;
   float:left;
-  margin:0 1em 1em 0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin:0 1rem 1rem 0;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.3), 0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .vertical-align {
-  padding-top:15px;
+  padding-top:0.93rem;
 }
 
 #video iframe {
   float:left;
-  margin:0  1em 1em 0;
+  margin:0  1rem 16px 0;
 }
 
 #contact-aside {
   font-style: italic;
   background-color: #f2f2f2;
-  margin-top: 50px;
-  padding:20px 20px 20px 20px;
-  width: 380px;
+  margin-top: 3.13rem;
+  padding:1.25rem 20px 1.25rem 20px;//rem for vertical padding and margin px for others-search internet for strategically usage of rem-em-px
+  width: 23,75rem;
   float: left;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 50rem) {
   #contact-aside {
-  margin: 1em 0;
+  margin: 1rem 0;
   width: 100%;
   }
   
@@ -41,9 +41,9 @@ main article img {
   } 
 }
 
-@media screen and (min-height: 1000px) {
+@media screen and (min-height: 62.5rem) {
     #contact-aside {
-  margin: 1em 0;
+  margin: 1rem 0;
   width: 100%;
   }
   
@@ -58,8 +58,8 @@ main article img {
   }
 
     iframe {
-      height:500px;
-      width:600px;
+      height:31.25rem;
+      width:37.5rem;
     }
 }
 }

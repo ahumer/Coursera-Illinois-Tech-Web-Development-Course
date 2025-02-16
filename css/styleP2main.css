@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  /*border: 1px solid red;*/
 }
 
 body {
@@ -29,7 +28,7 @@ body {
 h1,
 header h2 {
   color: blue;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+  text-shadow: 0.19rem 0.19rem 0.312rem rgba(0, 0, 0, .5);
 }
 
 nav {
@@ -54,7 +53,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  padding: 10px 20px;
+  padding: 0.625rem 20px;
   color: #fff;
   text-decoration: none;
 }
@@ -67,7 +66,7 @@ footer {
   background-color: #333;
   color: white;
   font-weight: lighter;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-family:'Source Sans 3', Arial, sans-serif;
 }
 
@@ -99,8 +98,8 @@ footer a {
 
 footer .contact a {
   background-repeat: no-repeat;
-  background-size: 20px;
-  background-position:5px center;
+  background-size: 1.25rem;
+  background-position:0.312em center;
   padding-left: 2em; 
 }
 
@@ -156,7 +155,7 @@ footer .contact li:nth-child(5) a {
 
 .inner-container {
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .resource p {
@@ -165,14 +164,14 @@ footer .contact li:nth-child(5) a {
 
 
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 38.75rem) {
     #content > *, .container > * {
-        max-width: 800px;
+        max-width: 50rem;
         margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 31.25rem) {
   .resource {
   float:none;
 }
