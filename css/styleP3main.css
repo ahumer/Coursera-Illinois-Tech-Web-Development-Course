@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-display: swap;
+  background-color: aliceblue;
+  color: #555;
+}
+
+#header {
+  background: hsla(210, 100%, 56%, 1);
+  background: linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(210, 100%, 56%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  text-align: center;
+}
+
+#content > * {
+  padding:0 1.25rem;
+  overflow:hidden;
+}
+
+h2,
+h3 {
+  color:navy;
+}
+ 
+h1,
+header h2 {
+  color: blue;
+  text-shadow: 0.19rem 0.19rem 0.312rem rgba(0, 0, 0, .5);
+}
+
+section h2,
+        h3 {
+  color: #333;
+}
+
+nav {
+  background: hsla(233, 35%, 53%, 1);
+  background: linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(233, 35%, 53%, 1) 0%, hsla(240, 100%, 25%, 1) 50%, hsla(233, 35%, 53%, 1) 100%);
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav ul li {
+  float:left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.625rem 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  font-family:'Source Sans 3', Arial, sans-serif;
+}
+
+footer ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+footer ul li {
+  padding: 0.5em 0;
+}
+
+.active {
+  background: hsla(208, 100%, 97%, 1);
+
+  background: linear-gradient(90deg, hsla(208, 100%, 97%, 1) 0%, hsla(233, 35%, 53%, 1) 100%, hsla(240, 100%, 25%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(208, 100%, 97%, 1) 0%, hsla(233, 35%, 53%, 1) 100%, hsla(240, 100%, 25%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(208, 100%, 97%, 1) 0%, hsla(233, 35%, 53%, 1) 100%, hsla(240, 100%, 25%, 1) 100%);
+  color:navy;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .contact a {
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  background-position:0.312em center;
+  padding-left: 2em; 
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 1px; 
+}
+
+footer .contact li:first-child a {
+  background-image:url("../images/dev-icon.png");
+}
+
+footer .contact li:nth-child(2) a {
+  background-image:url("../images/mail-icon.png");
+}
+
+footer .contact li:nth-child(3) a {
+  background-image:url("../images/github-icon.png");
+}
+
+footer .contact li:nth-child(4) a {
+  background-image:url("../images/linkedln-icon.png");
+}
+
+footer .contact li:nth-child(5) a {
+  background-image:url("../images/w3c-icon.png");
+}
+
+.bottom {
+  text-align:center;
+  background-color: black;
+  color:white;
+}
+
+.bottom a {
+  color: white;
+}
+
+.resource {
+  float:left;
+}
+
+.contact {
+  float:right;
+}
+
+.container {
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.inner-container {
+  padding-left: 20px;
+  padding-bottom: 1.25rem;
+}
+
+.resource p {
+  font-style: italic;
+}
+
+
+
+@media screen and (min-width: 38.75rem) {
+    #content > *, .container > * {
+        max-width: 50rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 31.25rem) {
+  .resource {
+  float:none;
+  }
+
+  .contact {
+    float:none;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  nav ul li a {
+    padding: 0.6rem 15px;
+  }
+  
+}

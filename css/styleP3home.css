@@ -1,0 +1,68 @@
+main article img {
+  border-radius: 100px;/*rem for vertical padding and margin px for others-search internet for strategically usage of rem-em-px*/
+  float:left;
+  margin:0 1rem 1rem 0;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.3), 0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.vertical-align {
+  padding-top:0.93rem;
+}
+
+.video_container {
+  position: relative; /* Needed for aspect ratio calculation */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width * 100%) */
+  height: 0;
+  overflow: hidden; /* Prevents content from overflowing */
+  margin: 0 auto 2rem auto; /* Centers the container horizontally */
+  max-width: 100%; /* Ensures the video doesn't exceed its container's width */
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.3), 0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.video_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 50rem) {
+  #contact-aside {
+  margin: 1rem 0;
+  width: 100%;
+  }
+  
+  #video iframe {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #video > * {
+    text-align: center;
+  } 
+}
+
+@media screen and (min-height: 62.5rem) {
+    #contact-aside {
+  margin: 1rem 0;
+  width: 100%;
+  }
+  
+  #video iframe {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #video > * {
+    text-align: center;
+  }
+
+    iframe {
+      height:31.25rem;
+      width:37.5rem;
+    }
+}
+}
