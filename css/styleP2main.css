@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
+  font-display: swap;
   background-color: aliceblue;
   color: #555;
 }
@@ -23,12 +24,20 @@ body {
   overflow:hidden;
 }
 
-  
-  
+h2,
+h3 {
+  color:navy;
+}
+ 
 h1,
 header h2 {
   color: blue;
   text-shadow: 0.19rem 0.19rem 0.312rem rgba(0, 0, 0, .5);
+}
+
+section h2,
+        h3 {
+  color: #333;
 }
 
 nav {
@@ -173,9 +182,16 @@ footer .contact li:nth-child(5) a {
 @media screen and (max-width: 31.25rem) {
   .resource {
   float:none;
+  }
+
+  .contact {
+    float:none;
+  }
 }
 
-.contact {
-  float:none;
-}
+@media screen and (max-width: 385px) {
+  nav ul li a {
+    padding: 0.6rem 15px;
+  }
+  
 }

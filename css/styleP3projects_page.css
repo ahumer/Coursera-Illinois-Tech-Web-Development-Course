@@ -1,0 +1,28 @@
+.outer-project-container{
+  max-width: 800px;
+}
+
+.inner-project-container{
+  vertical-align: middle;
+}
+
+section:last-of-type {
+  margin-bottom: 2rem;
+}
+  
+#contact-aside {
+  font-style: italic;
+  background-color: #f2f2f2;
+  margin-top: 3.13rem;
+  padding:1.25rem 20px;
+  width: 23.125rem;
+  margin:0 auto 1rem auto;
+  width: 100%;
+  text-align: center;
+}  
+
+img {
+  border-radius:20px;
+  width:100%;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.3), 0 0.37rem 1.25rem 0 rgba(0, 0, 0, 0.2);
+}
