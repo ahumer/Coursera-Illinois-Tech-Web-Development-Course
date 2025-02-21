@@ -43,7 +43,6 @@ function validateForm() {
   document.getElementById("fullname-result").innerText = fullname;
   document.getElementById("company-result").innerText = company;
   document.getElementById("comment-result").innerText = comment;
-  alert(document.getElementById("email-result").value);
   
   document.getElementById("form-input-card").style.display = "none";
   document.getElementById("submit-result-card").style.display = "block";
