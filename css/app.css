@@ -392,6 +392,7 @@ footer .phone::before {
 #submit-result-card h2 {
   color: #3498db;
   text-align: center;
+  font-size:1.5rem;
 }
 
 .result-item {
