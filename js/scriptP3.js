@@ -15,10 +15,6 @@ function validateForm() {
     alert("Fulname must be filled out");
     return false;
   }
-  if(company == "") {
-    alert("Company name must be filled out");
-    return false;
-  }
     
   return true;
 }

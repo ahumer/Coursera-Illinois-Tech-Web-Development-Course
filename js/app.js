@@ -19,15 +19,10 @@ function scrollFunction() {
 function validateForm() {
   let email = document.getElementById("email").value;
   let fullname = document.getElementById("fullname").value;
-  let company = document.getElementById("company").value;
   let comment = document.getElementById("comment").value;
 
   if(fullname == "") {
     alert("Fulname must be filled out");
-    return false;
-  }
-  if(company == "") {
-    alert("Company name must be filled out");
     return false;
   }
   
