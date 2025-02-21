@@ -272,11 +272,13 @@
       </div>
       <div class="columns medium-6 contact-us-section-right">
         <h1 class="contact-us-header">Mail Us</h1>
-        <form class="contact-us-form">
-          <input type="text" placeholder="Full name">
-          <input type="text" placeholder="Company name">
-          <input type="email" placeholder="Email">
-          <textarea name="message" id="" rows="10" placeholder="Type your message here"></textarea>
+        <div id="form-area">
+        <div id="form-input-card">
+        <form id ="contact-us-form" name="contact_form" action="project4.html#form-area" method="get" onsubmit="return validateForm()">
+          <input id="fullname" type="text" placeholder="Full name">
+          <input id="company" type="text" placeholder="Company name">
+          <input id="email" type="email" placeholder="Email">
+          <textarea id="comment" name="message" id="" rows="10" placeholder="This form has validation that is done by using js and validated information is sent to a result card. Check it out!"></textarea>
           <div class="contact-us-form-actions">
             <input type="submit" class="button" value="Send it">
             <div>
@@ -285,6 +287,25 @@
             </div>
           </div>
         </form>
+        </div>
+        <div id="submit-result-card">
+          <h2>Thank you.</h2>
+          <h2>Your information has been recorded.</h2>
+
+          <div class="result-item">
+            <strong>Full Name:</strong> <span id="fullname-result"></span>
+          </div>
+          <div class="result-item">
+            <strong>Email:</strong> <span id="email-result"></span>
+          </div>
+          <div class="result-item">
+            <strong>Company Name:</strong> <span id="company-result"></span>
+          </div>
+          <div class="result-item">
+            <strong>Message:</strong> <span id="comment-result"></span>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   </section>
@@ -335,7 +356,7 @@
   <div class="row columns flex-container align-justify">
      Copyright &copy; 2025 <a href="#top">Kelly Igweshi </a>- All Rights Reserved
     <div class="up-arrow">
-      <a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+      <a id="top-btn" onclick="topFunction()" href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
     </div>
   </div>
   </footer>
