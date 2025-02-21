@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styleP3main.css">
     <link rel="stylesheet" href="css/styleP3contact.css">
-    <script src="js/scriptP3.js"></script>
+    <script async src="js/scriptP3.js"></script>
   </head>
   <body>
     <header id="header">
@@ -60,6 +60,7 @@
           </div>
         </div>
       </section>
+
       <section id="form">
         <h2>Your success, my priority.</h2>
         <h3>Let's get started on your next project</h3>
@@ -105,6 +106,10 @@
           </div>
         </form>
       </section>
+      <section class="map-area">
+      <div id="map">
+      </div>
+      </section>
     </main>
     <footer>
       <div class="container">
@@ -136,5 +141,8 @@
       </small>
       </div>
     </footer>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+	  <script async src="js/map.js"></script>
   </body>
 </html>
